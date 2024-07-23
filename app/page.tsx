@@ -170,12 +170,20 @@ export default function Home() {
             <p className="text-lg font-normal mt-11">Business analysis <span className="text-amber-400">/</span> iOS <span className="text-amber-400">/</span> Android <span className="text-amber-400">/</span> QA <span className="text-amber-400">/</span> UI<span className="text-amber-400">/</span>UX Design</p>
             <div className="flex mt-11">
               <div className="flex mr-11">
+<<<<<<< HEAD
                 <Image src="/location.png" alt="" width={24} height={24} />
+=======
+                <Image src="/location.png" alt="" />
+>>>>>>> 9ec5abcdc19d99ad3b8d5bdf58e81e3509cec577
                 <p className="text-sm">India</p>
               </div>
 
               <div className="flex">
+<<<<<<< HEAD
                 <Image src="/realestate.png" alt="" width={24} height={24}/>
+=======
+                <Image src="/realestate.png" alt="" />
+>>>>>>> 9ec5abcdc19d99ad3b8d5bdf58e81e3509cec577
                 <p className="text-sm">Real Estate</p>
               </div>
             </div>
@@ -191,10 +199,17 @@ export default function Home() {
               </div>
             </div>
 
+<<<<<<< HEAD
             <Image src="/playstore.png" alt="" className="w-80 mt-9 pointer" width={24} height={24}/>
           </div>
 
           <Image src="/Sphone.png" alt="" className="image" width={24} height={24} />
+=======
+            <Image src="/playstore.png" alt="" className="w-80 mt-9 pointer" />
+          </div>
+
+          <Image src="/Sphone.png" alt="" className="image" />
+>>>>>>> 9ec5abcdc19d99ad3b8d5bdf58e81e3509cec577
 
           <div>
 
@@ -265,7 +280,11 @@ export default function Home() {
           </div>
 
           <div>
+<<<<<<< HEAD
             <Image src="/sixthphone.png" alt=""  width={24} height={24}/>
+=======
+            <Image src="/sixthphone.png" alt="" />
+>>>>>>> 9ec5abcdc19d99ad3b8d5bdf58e81e3509cec577
           </div>
 
           <div>
@@ -300,7 +319,11 @@ export default function Home() {
           <p className="texti font-medium text-base mt-9">All the necessary specialists - from a designer to a tester - are on our staff. We hire the best specialists in the market. It's expensive but worth it</p>
         </div>
 
+<<<<<<< HEAD
         <Image src="/team.png" alt="" className="w-1/2" width={24} height={24} />
+=======
+        <Image src="/team.png" alt="" className="w-1/2" />
+>>>>>>> 9ec5abcdc19d99ad3b8d5bdf58e81e3509cec577
       </div>
 
       {/* EIGHT PAGE */}
@@ -312,12 +335,20 @@ export default function Home() {
             <hr />
             <div className="flex justify-between ques items-center font-semibold text-lg">
               <h1>What is the cost of a mobile application?</h1>
+<<<<<<< HEAD
               <Image src="/plus.png" alt="" width={24} height={24} />
+=======
+              <Image src="/plus.png" alt="" />
+>>>>>>> 9ec5abcdc19d99ad3b8d5bdf58e81e3509cec577
             </div>
             <hr />
             <div className="flex justify-between ques items-center font-semibold text-lg">
               <h1>Do you provide a guarantee for the mobile application?</h1>
+<<<<<<< HEAD
               <Image src="/plus.png" alt="" className="" width={24} height={24}/>
+=======
+              <Image src="/plus.png" alt="" className="" />
+>>>>>>> 9ec5abcdc19d99ad3b8d5bdf58e81e3509cec577
             </div>
             <hr />
           </div>
@@ -326,12 +357,20 @@ export default function Home() {
             <hr />
             <div className="flex justify-between ques items-center font-semibold text-lg">
               <h1>How long will development take?</h1>
+<<<<<<< HEAD
               <Image src="/plus.png" alt="" width={24} height={24} />
+=======
+              <Image src="/plus.png" alt="" />
+>>>>>>> 9ec5abcdc19d99ad3b8d5bdf58e81e3509cec577
             </div>
             <hr />
             <div className="flex justify-between ques items-center font-semibold text-lg">
               <h1>I will not tell my idea, do you guarantee confidentiality?</h1>
+<<<<<<< HEAD
               <Image src="/plus.png" alt="" className="" width={24} height={24}/>
+=======
+              <Image src="/plus.png" alt="" className="" />
+>>>>>>> 9ec5abcdc19d99ad3b8d5bdf58e81e3509cec577
             </div>
             <hr />
           </div>
@@ -343,13 +382,21 @@ export default function Home() {
       <footer className="w-screen bg-white px-24">
         <div className="footer">
           <div className="flex justify-center">
+<<<<<<< HEAD
             <Image src="/logo-light.png" alt="" className="text-center" width={24} height={24}/>
+=======
+            <Image src="/logo-light.png" alt="" className="text-center" />
+>>>>>>> 9ec5abcdc19d99ad3b8d5bdf58e81e3509cec577
           </div>
 
           <div className="flex justify-between mt-6 option">
             <div className="fotion">
               <div className="flex items-center mb-2">
+<<<<<<< HEAD
                 <Image src="/smartphone_outline.png" alt="" className="w-6 h-6" width={24} height={24}/>
+=======
+                <Image src="/smartphone_outline.png" alt="" className="w-6 h-6" />
+>>>>>>> 9ec5abcdc19d99ad3b8d5bdf58e81e3509cec577
                 <h1 className="text-slate-400 text-sm ml-1">Contact number</h1>
               </div>
               <p className="text-white">+91 000000000</p>
@@ -357,7 +404,11 @@ export default function Home() {
 
             <div className="fotion">
               <div className="flex items-center mb-2">
+<<<<<<< HEAD
                 <Image src="/mail_outline.png" alt="" className="w-6 h-6" width={24} height={24}/>
+=======
+                <Image src="/mail_outline.png" alt="" className="w-6 h-6" />
+>>>>>>> 9ec5abcdc19d99ad3b8d5bdf58e81e3509cec577
                 <h1 className="text-slate-400 text-sm ml-1">Gmail</h1>
               </div>
               <p className="text-white">demo@gmail.com</p>
@@ -365,7 +416,11 @@ export default function Home() {
 
             <div className="fotion">
               <div className="flex items-center mb-2">
+<<<<<<< HEAD
                 <Image src="/place_outline.png" alt="" className="w-6 h-6" width={24} height={24}/>
+=======
+                <Image src="/place_outline.png" alt="" className="w-6 h-6" />
+>>>>>>> 9ec5abcdc19d99ad3b8d5bdf58e81e3509cec577
                 <h1 className="text-slate-400 text-sm ml-1">Address</h1>
               </div>
               <p className="text-white">Mumbai, India</p>
@@ -373,7 +428,11 @@ export default function Home() {
 
             <div className="fotion">
               <div className="flex items-center mb-2">
+<<<<<<< HEAD
                 <Image src="/document_outline.png" alt="" className="w-6 h-6" width={24} height={24}/>
+=======
+                <Image src="/document_outline.png" alt="" className="w-6 h-6" />
+>>>>>>> 9ec5abcdc19d99ad3b8d5bdf58e81e3509cec577
                 <h1 className="text-slate-400 text-sm ml-1">Leave a request</h1>
               </div>
               <p className="text-white">Leave a request</p>
