@@ -8,12 +8,12 @@ import RightCard from "./components/sixthcard/rightCard";
 
 export default function Home() {
   return (
-    <div className=" bg-gray-100 w-screen">
+    <div className="bg-gray-100 w-screen">
 
-      {/*NAVBAR */}
-      <nav className="nav items-center bg-white flex h-24 sticky top-4 ">
+      {/* NAVBAR */}
+      <nav className="nav items-center bg-white flex h-24 sticky top-4">
         <div className="logo">
-          <img src="/logo.png" alt="logo" className="w-20"/>
+          <Image src="/logo.png" alt="logo" width={80} height={80} />
         </div>
 
         <div className="framer w-1/2 font-medium">
@@ -28,16 +28,15 @@ export default function Home() {
 
         <div className="cont flex flex-row font-medium h-4 items-center">
           <div className="flex flex-row mr-8">
-            <img src="/phone.png" alt="phone" className='w-6 h-6 mr-2' />
-            <p className=' flex text-sm items-center'>+91 <span className='ml-4'>000000000</span></p>
+            <Image src="/phone.png" alt="phone" width={24} height={24} className='mr-2' />
+            <p className='flex text-sm items-center'>+91 <span className='ml-4'>000000000</span></p>
           </div>
           <div className="flex flex-row">
-            <img src="/mail.png" alt="mail" className='w-6 h-6 mr-2' />
+            <Image src="/mail.png" alt="mail" width={24} height={24} className='mr-2' />
             <p className='flex text-sm items-center'>demo@gmail.com</p>
           </div>
         </div>
       </nav>
-
 
       {/* HOME PAGE */}
       <div className="first p-24 flex flex-row bg-gray-100 h-screen text-4xl">
@@ -47,9 +46,8 @@ export default function Home() {
             <h1 className="font-medium text-lg fpara">Experience a Seamless Digital Journey with <span className="font-extrabold text-lime-600">Desun</span> - Where Every Line of Code Resolves Your Challenges and <span className="font-extrabold text-amber-400">Elevates Your App Experience</span> to Unparalleled Heights.</h1>
           </div>
 
-          <div className="fcont2  bg-white p-6 mt-20">
-            <h1 className="font-extrabold f2head">Leave your contacts and we will call you back<br />
-              within 30 minutes</h1>
+          <div className="fcont2 bg-white p-6 mt-20">
+            <h1 className="font-extrabold f2head">Leave your contacts and we will call you back<br /> within 30 minutes</h1>
 
             <div className="form mt-8 flex flex-row">
               <div className="w-3/4">
@@ -93,51 +91,47 @@ export default function Home() {
               </div>
 
               <div className="w-2">
-                <button type="submit" className="bg-lime-700 text-xl font-medium text-white w-32 py-1 mt-16 px-6 btn  flex justify-end ml-7">Get consultion</button>
+                <button type="submit" className="bg-lime-700 text-xl font-medium text-white w-32 py-1 mt-16 px-6 btn flex justify-end ml-7">Get consultion</button>
               </div>
             </div>
           </div>
         </div>
 
         <div className="image">
-          <img src="/sixthphone.png" alt="" />
+          <Image src="/sixthphone.png" alt="" width={500} height={500} />
         </div>
       </div>
 
       {/* SECOND PAGE */}
-      <div className="second pb-14 bg-white  h-screen w-screen pt-10">
+      <div className="second pb-14 bg-white h-screen w-screen pt-10">
         <div className="logo_line">
           <hr />
           <div className="flex flex-row items-center justify-evenly h-48">
-            <img src="/logoplant.png" alt="company logo" className="h-20" />
-            <img src="/logoplant.png" alt="company logo" className="h-20" />
-            <img src="/logoplant.png" alt="company logo" className="h-20" />
-            <img src="/logoplant.png" alt="company logo" className="h-20" />
-            <img src="/logoplant.png" alt="company logo" className="h-20" />
-            <img src="/logoplant.png" alt="company logo" className="h-20" />
+            <Image src="/logoplant.png" alt="company logo" width={80} height={80} />
+            <Image src="/logoplant.png" alt="company logo" width={80} height={80} />
+            <Image src="/logoplant.png" alt="company logo" width={80} height={80} />
+            <Image src="/logoplant.png" alt="company logo" width={80} height={80} />
+            <Image src="/logoplant.png" alt="company logo" width={80} height={80} />
+            <Image src="/logoplant.png" alt="company logo" width={80} height={80} />
           </div>
           <hr />
         </div>
 
-
-        <div className="sec2 flex justify-center mt-14 ">
+        <div className="sec2 flex justify-center mt-14">
           <div className="field">
             <h1 className="font-bold text-4xl mt-2">Full development cycle</h1>
-            <p className=" mt-4 text-base font-medium">We use proven technologies</p>
+            <p className="mt-4 text-base font-medium">We use proven technologies</p>
 
             <div className="mt-7">
               <h1 className="font-semibold text-xl">Web</h1>
               <p className="w-3/4">PHP / Javascript / Node.JS / Web Socket / Socket.io / Vue.js/ Nuxt / MySQL / Laravel / GO lang / django / Python</p>
-
             </div>
 
             <div className="mt-7">
               <h1 className="font-semibold text-xl">Mobile</h1>
               <p className="w-3/4">Swift / Kotlin / Alamofire / Firebase / CoreData / Room / Realm / Coroutine / RxJava / RxSwift / Unit Test / Navigation</p>
-
             </div>
           </div>
-
 
           <ul className="option flex flex-col justify-evenly">
             <li>iOS development <ChevronRightIcon /></li>
@@ -156,9 +150,7 @@ export default function Home() {
         <h1 className="font-bold text-4xl line-hei">Developed more than <span className="text-lime-600">100</span><br /> projects in <span className="text-lime-600">15</span> industries</h1>
 
         <div>
-          <div>
-            <GridTemp />
-          </div>
+          <GridTemp />
         </div>
       </div>
 
@@ -178,12 +170,12 @@ export default function Home() {
             <p className="text-lg font-normal mt-11">Business analysis <span className="text-amber-400">/</span> iOS <span className="text-amber-400">/</span> Android <span className="text-amber-400">/</span> QA <span className="text-amber-400">/</span> UI<span className="text-amber-400">/</span>UX Design</p>
             <div className="flex mt-11">
               <div className="flex mr-11">
-                <img src="/location.png" alt="" />
+                <Image src="/location.png" alt="" width={24} height={24} />
                 <p className="text-sm">India</p>
               </div>
 
               <div className="flex">
-                <img src="/realestate.png" alt="" />
+                <Image src="/realestate.png" alt="" width={24} height={24}/>
                 <p className="text-sm">Real Estate</p>
               </div>
             </div>
@@ -199,10 +191,10 @@ export default function Home() {
               </div>
             </div>
 
-            <img src="/playstore.png" alt="" className="w-80 mt-9 pointer" />
+            <Image src="/playstore.png" alt="" className="w-80 mt-9 pointer" width={24} height={24}/>
           </div>
 
-          <img src="/Sphone.png" alt="" className="image" />
+          <Image src="/Sphone.png" alt="" className="image" width={24} height={24} />
 
           <div>
 
@@ -273,7 +265,7 @@ export default function Home() {
           </div>
 
           <div>
-            <img src="/sixthphone.png" alt="" />
+            <Image src="/sixthphone.png" alt=""  width={24} height={24}/>
           </div>
 
           <div>
@@ -308,7 +300,7 @@ export default function Home() {
           <p className="texti font-medium text-base mt-9">All the necessary specialists - from a designer to a tester - are on our staff. We hire the best specialists in the market. It's expensive but worth it</p>
         </div>
 
-        <img src="/team.png" alt="" className="w-1/2" />
+        <Image src="/team.png" alt="" className="w-1/2" width={24} height={24} />
       </div>
 
       {/* EIGHT PAGE */}
@@ -320,12 +312,12 @@ export default function Home() {
             <hr />
             <div className="flex justify-between ques items-center font-semibold text-lg">
               <h1>What is the cost of a mobile application?</h1>
-              <img src="/plus.png" alt="" />
+              <Image src="/plus.png" alt="" width={24} height={24} />
             </div>
             <hr />
             <div className="flex justify-between ques items-center font-semibold text-lg">
               <h1>Do you provide a guarantee for the mobile application?</h1>
-              <img src="/plus.png" alt="" className="" />
+              <Image src="/plus.png" alt="" className="" width={24} height={24}/>
             </div>
             <hr />
           </div>
@@ -334,12 +326,12 @@ export default function Home() {
             <hr />
             <div className="flex justify-between ques items-center font-semibold text-lg">
               <h1>How long will development take?</h1>
-              <img src="/plus.png" alt="" />
+              <Image src="/plus.png" alt="" width={24} height={24} />
             </div>
             <hr />
             <div className="flex justify-between ques items-center font-semibold text-lg">
               <h1>I will not tell my idea, do you guarantee confidentiality?</h1>
-              <img src="/plus.png" alt="" className="" />
+              <Image src="/plus.png" alt="" className="" width={24} height={24}/>
             </div>
             <hr />
           </div>
@@ -351,13 +343,13 @@ export default function Home() {
       <footer className="w-screen bg-white px-24">
         <div className="footer">
           <div className="flex justify-center">
-            <img src="/logo-light.png" alt="" className="text-center" />
+            <Image src="/logo-light.png" alt="" className="text-center" width={24} height={24}/>
           </div>
 
           <div className="flex justify-between mt-6 option">
             <div className="fotion">
               <div className="flex items-center mb-2">
-                <img src="/smartphone_outline.png" alt="" className="w-6 h-6" />
+                <Image src="/smartphone_outline.png" alt="" className="w-6 h-6" width={24} height={24}/>
                 <h1 className="text-slate-400 text-sm ml-1">Contact number</h1>
               </div>
               <p className="text-white">+91 000000000</p>
@@ -365,7 +357,7 @@ export default function Home() {
 
             <div className="fotion">
               <div className="flex items-center mb-2">
-                <img src="/mail_outline.png" alt="" className="w-6 h-6" />
+                <Image src="/mail_outline.png" alt="" className="w-6 h-6" width={24} height={24}/>
                 <h1 className="text-slate-400 text-sm ml-1">Gmail</h1>
               </div>
               <p className="text-white">demo@gmail.com</p>
@@ -373,7 +365,7 @@ export default function Home() {
 
             <div className="fotion">
               <div className="flex items-center mb-2">
-                <img src="/place_outline.png" alt="" className="w-6 h-6" />
+                <Image src="/place_outline.png" alt="" className="w-6 h-6" width={24} height={24}/>
                 <h1 className="text-slate-400 text-sm ml-1">Address</h1>
               </div>
               <p className="text-white">Mumbai, India</p>
@@ -381,7 +373,7 @@ export default function Home() {
 
             <div className="fotion">
               <div className="flex items-center mb-2">
-                <img src="/document_outline.png" alt="" className="w-6 h-6" />
+                <Image src="/document_outline.png" alt="" className="w-6 h-6" width={24} height={24}/>
                 <h1 className="text-slate-400 text-sm ml-1">Leave a request</h1>
               </div>
               <p className="text-white">Leave a request</p>
