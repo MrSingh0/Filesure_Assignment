@@ -106,7 +106,7 @@ export default function Home() {
           <hr />
           <div className="flex flex-row items-center justify-evenly h-48">
             {Array(6).fill("/logoplant.png").map((src, index) => (
-              <Image key={index} src={src} alt="company logo" width={80} height={80} />
+              <Image key={index} src={src} alt="company logo" width={220} height={220} />
             ))}
           </div>
           <hr />
@@ -170,40 +170,64 @@ export default function Home() {
                 <p className="text-sm">Real estate</p>
               </div>
             </div>
+            <Image src="/playstore.png" alt="" className="w-80 mt-9 pointer" width={124} height={124}/>
           </div>
           <div className="ml-auto">
-            <Image src="/project1.png" alt="Project 1" width={500} height={500} />
+            <Image src="/Sphone.png" alt="project1" className="image" width={724} height={724} />
           </div>
         </div>
       </div>
 
       {/* FIFTH PAGE */}
-      <div className="fifth bg-gray-100 flex p-24 w-screen">
-        <div className="fleft">
-          <h1 className="text-4xl font-bold">
-            We are ready to fulfill your task. Leave a request for a free consultation
-          </h1>
+      <div className="fifth flex px-24 py-14 justify-between">
+        <div>
+          <h1 className="text-4xl font-bold text-white">Let's discuss</h1>
+          <p className="mt-3 text-4xl font-bold text-white">Your project</p>
+          <p className="font-medium mt-9 text-white">Let's figure out how to create an effective application,<br />its cost and terms of its development</p>
         </div>
-        <div className="fright flex flex-row">
-          <TextField
-            className="textfield"
-            required
-            id="standard-required"
-            label="Name"
-            defaultValue="My Name"
-            variant="standard"
-          />
-          <TextField
-            className="textfield"
-            required
-            id="standard-required"
-            label="Phone"
-            defaultValue="+91 000000000"
-            variant="standard"
-          />
-          <button type="submit" className="bg-lime-700 text-xl font-medium text-white w-32 py-1 mt-5 px-6 btn flex justify-end ml-7">
-            Get consultation
-          </button>
+
+        <div className="form ">
+          <div className="flex justify-between">
+            <TextField
+              className="textfield"
+              required
+              id="standard-required"
+              label="Full name"
+              defaultValue="My Name"
+              variant="standard"
+            />
+            <TextField
+              className="textfield"
+              required
+              id="standard-required"
+              label="Phone number"
+              defaultValue="+91 000000000"
+              variant="standard"
+            />
+          </div>
+
+          <div className="marin flex justify-between mt-4">
+            <TextField
+              className="textfield"
+              required
+              id="standard-required"
+              label="Business name"
+              defaultValue="ABC Technologies PVT LTD"
+              variant="standard"
+            />
+            <TextField
+              className="textfield"
+              required
+              id="standard-required"
+              label="Business mail"
+              defaultValue="demoaccount@gmail.com"
+              variant="standard"
+            />
+          </div>
+
+          <div>
+            <button type="submit" className="bg-amber-400 w-44 py-2.5 px-6 btn mt-9 flex justify-end ml-72">Discuss the project</button>
+          </div>
         </div>
       </div>
 
@@ -211,32 +235,58 @@ export default function Home() {
       <div className="sixth bg-white w-screen">
         <div className="stop">
           <h1 className="text-4xl font-bold p-24 leading-10">
-            Full-Cycle Development for Leading Brands - Empowering Businesses with Innovative Mobile Apps and Web Solutions.
+            Application Development Stages
           </h1>
         </div>
         <div className="card flex justify-center items-center bg-white w-screen pb-24">
           <LeftCard />
+          <Image src="/sixthphone.png" alt="" className="text-center" width={456} height={186}/>
           <RightCard />
         </div>
       </div>
 
       {/* FOOTER */}
-      <footer className="foot bg-black w-screen h-60 text-white flex justify-between items-center p-14">
-        <div className="f1">
-          <h1 className="font-bold text-4xl">Desun Tech</h1>
-          <p className="text-sm font-normal mt-5">Crafting Digital Excellence for Your Business Success</p>
-        </div>
-        <div className="f2 flex flex-row">
-          {['About Us', 'Services', 'Portfolio', 'Contact'].map((item) => (
-            <div key={item} className="mr-14">
-              <h1 className="font-bold text-xl">{item}</h1>
-              <ul className="text-sm font-normal mt-5">
-                {['Link 1', 'Link 2', 'Link 3'].map((link, index) => (
-                  <li key={index}>{link}</li>
-                ))}
-              </ul>
+      <footer className="w-screen bg-white px-24">
+        <div className="footer">
+          <div className="flex justify-center">
+            <Image src="/logo-light.png" alt="" className="text-center" width={186} height={186}/>
+          </div>
+
+          <div className="flex justify-between mt-6 option">
+            <div className="fotion">
+              <div className="flex items-center mb-2">
+                <Image src="/smartphone_outline.png" alt="" className="w-6 h-6" width={24} height={24}/>
+                <h1 className="text-slate-400 text-sm ml-1">Contact number</h1>
+              </div>
+              <p className="text-white">+91 000000000</p>
             </div>
-          ))}
+
+            <div className="fotion">
+              <div className="flex items-center mb-2">
+                <Image src="/mail_outline.png" alt="" className="w-6 h-6" width={24} height={24}/>
+                <h1 className="text-slate-400 text-sm ml-1">Gmail</h1>
+              </div>
+              <p className="text-white">demo@gmail.com</p>
+            </div>
+
+            <div className="fotion">
+              <div className="flex items-center mb-2">
+                <Image src="/place_outline.png" alt="" className="w-6 h-6" width={24} height={24}/>
+                <h1 className="text-slate-400 text-sm ml-1">Address</h1>
+              </div>
+              <p className="text-white">Mumbai, India</p>
+            </div>
+
+            <div className="fotion">
+              <div className="flex items-center mb-2">
+                <Image src="/document_outline.png" alt="" className="w-6 h-6" width={56} height={56}/>
+                <h1 className="text-slate-400 text-sm ml-1">Leave a request</h1>
+              </div>
+              <p className="text-white">Leave a request</p>
+            </div>
+          </div>
+
+          <h1 className="text-center text-white mt-16 text-sm">We work throughout the world</h1>
         </div>
       </footer>
     </div>
