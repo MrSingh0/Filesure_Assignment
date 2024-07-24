@@ -5,6 +5,7 @@ import Project from "./components/projects/project";
 import TextField from '@mui/material/TextField';
 import LeftCard from "./components/sixthcard/leftCard";
 import RightCard from "./components/sixthcard/rightCard";
+import DrawerList from "./components/drawer/drawer";
 
 export default function Home() {
   return (
@@ -12,6 +13,9 @@ export default function Home() {
       {/* NAVBAR */}
       <nav className="nav items-center bg-white flex h-24 sticky top-0">
         <div className="logo">
+          <Image src="/logo.png" alt="logo" width={80} height={80} />
+        </div>
+        <div className="logi">
           <Image src="/logo.png" alt="logo" width={80} height={80} />
         </div>
         <div className="framer w-1/2 font-medium">
@@ -22,6 +26,10 @@ export default function Home() {
               </li>
             ))}
           </ul>
+        </div>
+
+        <div className="drawer">
+            <DrawerList/>
         </div>
         <div className="cont flex flex-row font-medium h-4 items-center">
           <div className="flex flex-row mr-8">
@@ -46,6 +54,18 @@ export default function Home() {
               Experience a Seamless Digital Journey with <span className="font-extrabold text-lime-600">Desun</span> - Where Every Line of Code Resolves Your Challenges and <span className="font-extrabold text-amber-400">Elevates Your App Experience</span> to Unparalleled Heights.
             </h1>
           </div>
+
+          <div className="fconti1">
+            <h1 className="font-semibold leading-10">
+              <span className="text-amber-400 font-extrabold">User-Centric Excellence</span>: Our <span className="font-bold">App Development services</span> Tackles Your Pain Points
+            </h1>
+            <br/>
+            <h1 className="font-medium">
+              Experience a Seamless Digital Journey with <span className="font-extrabold text-lime-600">Desun</span> - Where Every Line of Code Resolves Your Challenges and <span className="font-extrabold text-amber-400">Elevates Your App Experience</span> to Unparalleled Heights.
+            </h1>
+          </div>
+
+
           <div className="fcont2 bg-white p-6 mt-20">
             <h1 className="font-extrabold f2head">Leave your contacts and we will call you back within 30 minutes</h1>
             <div className="form mt-8 flex flex-row">
