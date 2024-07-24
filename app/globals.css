@@ -69,6 +69,10 @@ body {
   display: none;
 }
 
+.assign{
+  width: 100vw;
+}
+
 /* First Page Code */
 
 .first .fhead {
@@ -541,7 +545,7 @@ footer {
     margin-left: 0;
   }
 
-  .second .sec2 .field {
+  .second{
     display: none;
   }
 }
@@ -576,6 +580,9 @@ footer {
     font-size: 1rem;
     line-height: 0;
     gap: 0;
+  }
+  .sixth{
+    display: none;
   }
 }
 
