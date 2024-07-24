@@ -19,7 +19,7 @@ export default function TemporaryDrawer() {
       onKeyDown={toggleDrawer(false)}
     >
       <List>
-        {['Item 1', 'Item 2', 'Item 3', 'Item 4'].map((text, index) => (
+        {['Service', 'Media', 'Cases', 'FAQ', 'Contact Us'].map((text, index) => (
           <ListItem button key={text}>
             <ListItemText primary={text} />
           </ListItem>
