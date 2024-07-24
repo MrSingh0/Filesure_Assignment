@@ -61,6 +61,14 @@ body {
   color: rgb(128, 169, 72);
 }
 
+.nav .logi{
+  display: none;
+}
+
+.nav .drawer{
+  display: none;
+}
+
 /* First Page Code */
 
 .first .fhead {
@@ -99,6 +107,10 @@ body {
 .first .form button {
   border-radius: 8px;
   font-size: 14px;
+}
+
+.first .fconti1{
+  display: none;
 }
 
 /* SECOND PAGE */
@@ -282,6 +294,25 @@ footer {
   .seventh .count div h1 {
     font-size: 36px;
   }
+
+  .nav .logo{
+    display: none;
+  }
+
+  .nav .logi{
+    display: block;
+    width: 250px;
+    /* height: 50px; */
+  }
+
+  .nav{
+    width: 100vw;
+  }
+
+  .nav .logi img{
+    width: 200px;
+    height: 70px;
+  }
 }
 
 @media (max-width: 900px) {
@@ -298,6 +329,23 @@ footer {
 
   .fourth .image {
     display: none;
+  }
+
+  .first{
+    height: fit-content;
+  }
+
+  .nav .framer{
+    display: none;
+  }
+
+  .nav .drawer{
+    display: block;
+  }
+
+  .nav{
+    display: flex;
+    justify-content: space-between;
   }
 }
 
@@ -382,6 +430,22 @@ footer {
     margin-bottom: 5rem;
     height: 70vh;
   }
+
+  .first{
+    padding: 12px;
+  }
+
+  .fcont1 .fhead span{
+    font-size: 2rem;
+  }
+
+  .fcont1{
+    width: 90vw!important;
+  }
+
+  .first{
+    width: 100vw;
+  }
 }
 
 @media (max-width: 675px) {
@@ -424,6 +488,33 @@ footer {
   .third {
     padding: 12px;
   }
+
+  .first h1{
+    font-size: 1.2rem;
+  }
+
+  .first{
+    width: 100vw;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .first .fcont1{
+    position:static;
+    width: 100vw;
+  }
+
+  .first span{
+    font-size: 1.5rem;
+  }
+
+  .first .fcont1{
+    display: none;
+  }
+
+  .first .fconti1{
+    display: block;
+  }
 }
 
 @media (max-width: 574px) {
@@ -449,6 +540,10 @@ footer {
   .fifth .form .btn {
     margin-left: 0;
   }
+
+  .second .sec2 .field {
+    display: none;
+  }
 }
 
 @media (max-width: 500px) {
@@ -461,6 +556,26 @@ footer {
 
   .third h1 {
     font-size: 2rem;
+  }
+
+  .first .fconti1{
+    padding-top: 2rem;
+  }
+
+  .first .fcont2{
+    margin-top: 2rem;
+  }
+
+  .first .fconti1 h1{
+    font-size: 0.8rem;
+    line-height: 2;
+    gap: 0;
+  }
+
+  .first .fconti1 span{
+    font-size: 1rem;
+    line-height: 0;
+    gap: 0;
   }
 }
 
