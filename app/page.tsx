@@ -181,9 +181,9 @@ export default function Home() {
       {/* FIFTH PAGE */}
       <div className="fifth flex px-24 py-14 justify-between">
         <div>
-          <h1 className="text-4xl font-bold text-white">Let's discuss</h1>
+          <h1 className="text-4xl font-bold text-white">Let discuss</h1>
           <p className="mt-3 text-4xl font-bold text-white">Your project</p>
-          <p className="font-medium mt-9 text-white">Let's figure out how to create an effective application,<br />its cost and terms of its development</p>
+          <p className="font-medium mt-9 text-white">Let figure out how to create an effective application,<br />its cost and terms of its development</p>
         </div>
 
         <div className="form ">
