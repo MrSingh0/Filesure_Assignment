@@ -170,7 +170,7 @@ export default function Home() {
                 <p className="text-sm">Real estate</p>
               </div>
             </div>
-            <Image src="/playstore.png" alt="" className="w-80 mt-9 pointer" width={124} height={124}/>
+            <Image src="/playstore.png" alt="" className="w-80 mt-9 pointer" width={124} height={124} />
           </div>
           <div className="ml-auto">
             <Image src="/Sphone.png" alt="project1" className="image" width={724} height={724} />
@@ -184,6 +184,7 @@ export default function Home() {
           <h1 className="text-4xl font-bold text-white">Let discuss</h1>
           <p className="mt-3 text-4xl font-bold text-white">Your project</p>
           <p className="font-medium mt-9 text-white">Let figure out how to create an effective application,<br />its cost and terms of its development</p>
+
         </div>
 
         <div className="form ">
@@ -240,7 +241,7 @@ export default function Home() {
         </div>
         <div className="card flex justify-center items-center bg-white w-screen pb-24">
           <LeftCard />
-          <Image src="/sixthphone.png" alt="" className="text-center" width={456} height={186}/>
+          <Image src="/sixthphone.png" alt="" className="text-center" width={456} height={186} />
           <RightCard />
         </div>
       </div>
@@ -249,13 +250,13 @@ export default function Home() {
       <footer className="w-screen bg-white px-24">
         <div className="footer">
           <div className="flex justify-center">
-            <Image src="/logo-light.png" alt="" className="text-center" width={186} height={186}/>
+            <Image src="/logo-light.png" alt="" className="text-center" width={186} height={186} />
           </div>
 
           <div className="flex justify-between mt-6 option">
             <div className="fotion">
               <div className="flex items-center mb-2">
-                <Image src="/smartphone_outline.png" alt="" className="w-6 h-6" width={24} height={24}/>
+                <Image src="/smartphone_outline.png" alt="" className="w-6 h-6" width={24} height={24} />
                 <h1 className="text-slate-400 text-sm ml-1">Contact number</h1>
               </div>
               <p className="text-white">+91 000000000</p>
@@ -263,7 +264,7 @@ export default function Home() {
 
             <div className="fotion">
               <div className="flex items-center mb-2">
-                <Image src="/mail_outline.png" alt="" className="w-6 h-6" width={24} height={24}/>
+                <Image src="/mail_outline.png" alt="" className="w-6 h-6" width={24} height={24} />
                 <h1 className="text-slate-400 text-sm ml-1">Gmail</h1>
               </div>
               <p className="text-white">demo@gmail.com</p>
@@ -271,7 +272,7 @@ export default function Home() {
 
             <div className="fotion">
               <div className="flex items-center mb-2">
-                <Image src="/place_outline.png" alt="" className="w-6 h-6" width={24} height={24}/>
+                <Image src="/place_outline.png" alt="" className="w-6 h-6" width={24} height={24} />
                 <h1 className="text-slate-400 text-sm ml-1">Address</h1>
               </div>
               <p className="text-white">Mumbai, India</p>
@@ -279,7 +280,7 @@ export default function Home() {
 
             <div className="fotion">
               <div className="flex items-center mb-2">
-                <Image src="/document_outline.png" alt="" className="w-6 h-6" width={56} height={56}/>
+                <Image src="/document_outline.png" alt="" className="w-6 h-6" width={56} height={56} />
                 <h1 className="text-slate-400 text-sm ml-1">Leave a request</h1>
               </div>
               <p className="text-white">Leave a request</p>
