@@ -10,7 +10,7 @@ const data = [
   },
   {
     topic: "Design",
-    content: "We adapt the customer's corporate identity to the platform guidelines. We draw convenient and understandable interfaces.",
+    content: "We adapt the customers corporate identity to the platform guidelines. We draw convenient and understandable interfaces.",
     img: "/design.png",
   },
   {
